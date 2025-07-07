@@ -37,3 +37,29 @@ claims-automation-advanced/
 
 ```bash
 pip install -r requirements.txt
+
+🧪 Running the App
+Place a sample claim file (e.g., sample_claim.pdf) in the project root
+
+Update file_path in main.py if needed
+
+Run the system:
+
+bash
+Copy
+Edit
+python main.py
+
+✨ Sample Output
+markdown
+Copy
+Edit
+========================================
+📄  CLAIM PROCESSING RESULT
+========================================
+💰 Extracted Amount: $12000
+📅 Date Found: 06/05/2024
+🧠 Complexity: COMPLEX
+🎯 Priority Score: 90
+🚦 Routing Decision: ⚠️ Sent for Human Review (Priority: 90)
+========================================
